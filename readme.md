@@ -1,3 +1,4 @@
+-- initial git setup
 git init
 git status
 git add main.tf
@@ -12,3 +13,13 @@ git remote add origin https://github.com/rahuldevipec/git_demo.git
 git branch -M master
 git push -u origin master
 git status
+
+-- branching
+git branch
+git branch feature
+git branch
+git checkout feature
+git branch
+git push -u origin feature
+git status
+
